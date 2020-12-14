@@ -43,11 +43,10 @@ public class consumerServiceImpl implements consumerService{
 	@Override
 	public long bill(long units) {
 		/*
-		 * 0 to 50 unit = 10
-		 * 50 to 100 = 3.70
-		 * 101- 150 = 4.80
-		 * 151 - 200 = 6.40
-		 * 201 - 250 = 7.60
+		 * 0 to 100 unit = 10
+		 * 100 to 200 = 15
+		 * 200- 300 = 20
+		 * 300 > = 25
 		 * 
 		 */
 		
